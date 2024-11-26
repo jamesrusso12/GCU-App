@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7E67B69A2CF65FDE00FC8A2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E67B6812CF65FDD00FC8A2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E67B6882CF65FDD00FC8A2F;
+			remoteInfo = "GCU-App";
+		};
+		7E67B6A42CF65FDE00FC8A2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E67B6812CF65FDD00FC8A2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E67B6882CF65FDD00FC8A2F;
+			remoteInfo = "GCU-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E67B6892CF65FDD00FC8A2F /* GCU-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GCU-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E67B6992CF65FDE00FC8A2F /* GCU-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GCU-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E67B6A32CF65FDE00FC8A2F /* GCU-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GCU-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7E67B68B2CF65FDD00FC8A2F /* GCU-App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GCU-App";
+			sourceTree = "<group>";
+		};
+		7E67B69C2CF65FDE00FC8A2F /* GCU-AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GCU-AppTests";
+			sourceTree = "<group>";
+		};
+		7E67B6A62CF65FDE00FC8A2F /* GCU-AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GCU-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E67B6862CF65FDD00FC8A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E67B6962CF65FDE00FC8A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E67B6A02CF65FDE00FC8A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E67B6802CF65FDD00FC8A2F = {
+			isa = PBXGroup;
+			children = (
+				7E67B68B2CF65FDD00FC8A2F /* GCU-App */,
+				7E67B69C2CF65FDE00FC8A2F /* GCU-AppTests */,
+				7E67B6A62CF65FDE00FC8A2F /* GCU-AppUITests */,
+				7E67B68A2CF65FDD00FC8A2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E67B68A2CF65FDD00FC8A2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E67B6892CF65FDD00FC8A2F /* GCU-App.app */,
+				7E67B6992CF65FDE00FC8A2F /* GCU-AppTests.xctest */,
+				7E67B6A32CF65FDE00FC8A2F /* GCU-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E67B6882CF65FDD00FC8A2F /* GCU-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E67B6AD2CF65FDE00FC8A2F /* Build configuration list for PBXNativeTarget "GCU-App" */;
+			buildPhases = (
+				7E67B6852CF65FDD00FC8A2F /* Sources */,
+				7E67B6862CF65FDD00FC8A2F /* Frameworks */,
+				7E67B6872CF65FDD00FC8A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7E67B68B2CF65FDD00FC8A2F /* GCU-App */,
+			);
+			name = "GCU-App";
+			packageProductDependencies = (
+			);
+			productName = "GCU-App";
+			productReference = 7E67B6892CF65FDD00FC8A2F /* GCU-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E67B6982CF65FDE00FC8A2F /* GCU-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E67B6B02CF65FDE00FC8A2F /* Build configuration list for PBXNativeTarget "GCU-AppTests" */;
+			buildPhases = (
+				7E67B6952CF65FDE00FC8A2F /* Sources */,
+				7E67B6962CF65FDE00FC8A2F /* Frameworks */,
+				7E67B6972CF65FDE00FC8A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E67B69B2CF65FDE00FC8A2F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7E67B69C2CF65FDE00FC8A2F /* GCU-AppTests */,
+			);
+			name = "GCU-AppTests";
+			packageProductDependencies = (
+			);
+			productName = "GCU-AppTests";
+			productReference = 7E67B6992CF65FDE00FC8A2F /* GCU-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E67B6A22CF65FDE00FC8A2F /* GCU-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E67B6B32CF65FDE00FC8A2F /* Build configuration list for PBXNativeTarget "GCU-AppUITests" */;
+			buildPhases = (
+				7E67B69F2CF65FDE00FC8A2F /* Sources */,
+				7E67B6A02CF65FDE00FC8A2F /* Frameworks */,
+				7E67B6A12CF65FDE00FC8A2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E67B6A52CF65FDE00FC8A2F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7E67B6A62CF65FDE00FC8A2F /* GCU-AppUITests */,
+			);
+			name = "GCU-AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "GCU-AppUITests";
+			productReference = 7E67B6A32CF65FDE00FC8A2F /* GCU-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E67B6812CF65FDD00FC8A2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					7E67B6882CF65FDD00FC8A2F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					7E67B6982CF65FDE00FC8A2F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 7E67B6882CF65FDD00FC8A2F;
+					};
+					7E67B6A22CF65FDE00FC8A2F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 7E67B6882CF65FDD00FC8A2F;
+					};
+				};
+			};
+			buildConfigurationList = 7E67B6842CF65FDD00FC8A2F /* Build configuration list for PBXProject "GCU-App" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E67B6802CF65FDD00FC8A2F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7E67B68A2CF65FDD00FC8A2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E67B6882CF65FDD00FC8A2F /* GCU-App */,
+				7E67B6982CF65FDE00FC8A2F /* GCU-AppTests */,
+				7E67B6A22CF65FDE00FC8A2F /* GCU-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E67B6872CF65FDD00FC8A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E67B6972CF65FDE00FC8A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E67B6A12CF65FDE00FC8A2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E67B6852CF65FDD00FC8A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E67B6952CF65FDE00FC8A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E67B69F2CF65FDE00FC8A2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E67B69B2CF65FDE00FC8A2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E67B6882CF65FDD00FC8A2F /* GCU-App */;
+			targetProxy = 7E67B69A2CF65FDE00FC8A2F /* PBXContainerItemProxy */;
+		};
+		7E67B6A52CF65FDE00FC8A2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E67B6882CF65FDD00FC8A2F /* GCU-App */;
+			targetProxy = 7E67B6A42CF65FDE00FC8A2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7E67B6AB2CF65FDE00FC8A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E67B6AC2CF65FDE00FC8A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E67B6AE2CF65FDE00FC8A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GCU-App/Preview Content\"";
+				DEVELOPMENT_TEAM = PD29S4YQ4P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Russo.GCU-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E67B6AF2CF65FDE00FC8A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GCU-App/Preview Content\"";
+				DEVELOPMENT_TEAM = PD29S4YQ4P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Russo.GCU-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E67B6B12CF65FDE00FC8A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD29S4YQ4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Russo.GCU-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCU-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GCU-App";
+			};
+			name = Debug;
+		};
+		7E67B6B22CF65FDE00FC8A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD29S4YQ4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Russo.GCU-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCU-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GCU-App";
+			};
+			name = Release;
+		};
+		7E67B6B42CF65FDE00FC8A2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD29S4YQ4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Russo.GCU-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GCU-App";
+			};
+			name = Debug;
+		};
+		7E67B6B52CF65FDE00FC8A2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PD29S4YQ4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Russo.GCU-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GCU-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E67B6842CF65FDD00FC8A2F /* Build configuration list for PBXProject "GCU-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E67B6AB2CF65FDE00FC8A2F /* Debug */,
+				7E67B6AC2CF65FDE00FC8A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E67B6AD2CF65FDE00FC8A2F /* Build configuration list for PBXNativeTarget "GCU-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E67B6AE2CF65FDE00FC8A2F /* Debug */,
+				7E67B6AF2CF65FDE00FC8A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E67B6B02CF65FDE00FC8A2F /* Build configuration list for PBXNativeTarget "GCU-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E67B6B12CF65FDE00FC8A2F /* Debug */,
+				7E67B6B22CF65FDE00FC8A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E67B6B32CF65FDE00FC8A2F /* Build configuration list for PBXNativeTarget "GCU-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E67B6B42CF65FDE00FC8A2F /* Debug */,
+				7E67B6B52CF65FDE00FC8A2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E67B6812CF65FDD00FC8A2F /* Project object */;
+}
